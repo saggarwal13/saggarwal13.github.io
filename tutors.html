@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale scale=1.0">
+  </head>
+ <body>
+   <nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+     <img class="img-responsive" src="logo.png" alt="Path" style="width:200px;height:100px;">
+
+   </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <ul class="nav navbar-nav">
+
+       <li><a href="about.html">About us</a></li>
+       <li><a href="contact.html">Contact and FAQs</a></li>
+
+       <li><a href="studentpage.html">Student</a></li>
+       <li><a href="tutors.html">Tutors</a></li>
+
+     </ul>
+
+   </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+   </nav>
+
+<br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body background="Picture5.png" background-repeat= "no-repeat">
+<img class= "img-responsive">
+<div class="row">
+  <div class="col-sm-8">
+<center>
+<br>
+<br>
+<br>
+<br>
+
+<h2><strong><font style:"Berlin Sans FB" color="black">Sign Up by completing the form underneath to enable students to choose you as their tutor</font></strong></h2>
+</center>
+<br>
+<div class="row">
+  <div class="col-sm-4">
+
+
+</div>
+<br>
+<div class="text-center">
+<strong><font color="white">Enter names in the fields, then click "Submit" to submit the form:</font>
+
+   <form id="frm1" action="/action_page.php">
+     <strong><font color="white">First name: </font></strong><input type="text" name="fname"><br>
+     <strong><font color="white">Last name: </font></strong><input type="text" name="lname"><br><br>
+     <strong><font color="white">Postcode: </font></strong><input type="text" address="addresscode"><br><br>
+     <strong><font color="white">Qualification: </font></strong><input type="text" qualification="qualifications"><br><br>
+     <strong><font color="white">Subject: </font></strong><input type="text" subject="subject"><br><br>
+     <strong><font color="white">Price Range Per Session: </font></strong><input type="integer" price=price><br><br>
+     <strong><font color="white">Phone number: </font></strong><input type="integer" number=number><br><br>
+     <strong><font color="white">Email Address: </font></strong><input"text" email=email><br><br>
+     <input type="button" onclick="myFunction()" value="Submit">
+   </form>
+</div>
+   <script>
+   function myFunction() {
+     document.getElementById("frm1").submit();
+   }
+   </script>
+
+ </body>
+</html>
