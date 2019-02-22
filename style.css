@@ -1,5 +1,8 @@
 .jumbo{
   font-size: 20px;
-  font-style: Berlin Sans FB;
-
+  font-family: "Berlin Sans FB";
+  color: red;
+}
+h1{
+  font-size: 100px;
 }
