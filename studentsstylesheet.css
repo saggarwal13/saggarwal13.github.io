@@ -1,0 +1,18 @@
+.jumbo{
+  font-size: 20px;
+  font-family: "Berlin Sans FB";
+  color: red;
+}
+
+body {
+  background-image: url("students learning.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.content{
+
+}
+h1{
+font-size: 100px;
+}
