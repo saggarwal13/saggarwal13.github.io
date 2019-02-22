@@ -1,0 +1,12 @@
+.jumbo{
+  font-size: 100px;
+  font-family: "Berlin Sans FB";
+  color: black;
+
+}
+.content{
+  background-image:url("logo.png") ;
+  background-repeat: no-repeat;
+  background-size:75%;
+  background-position: top center, 0px 0px;
+  background-origin: content-box, padding-box;
